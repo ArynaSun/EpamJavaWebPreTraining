@@ -1,0 +1,18 @@
+2018-07-16 12:08:20 [main] INFO  com.company.Main - Введите числа через пробел
+2018-07-16 12:08:34 [main] INFO  com.company.Main - Длина слова: %d
+
+2018-07-16 12:08:34 [main] INFO  com.company.Main - Длина слова: %d
+
+2018-07-16 12:08:34 [main] INFO  com.company.Main - Длина слова: %d
+
+2018-07-16 12:08:34 [main] INFO  com.company.Main - Длина слова: %d
+
+2018-07-16 15:51:36 [main] INFO  com.company.Main - Введите числа через пробел
+2018-07-16 15:51:50 [main] INFO  com.company.Main - Самое короткое число:15его длина: %d
+
+2018-07-16 15:52:19 [main] INFO  com.company.Main - Введите числа через пробел
+2018-07-16 15:52:32 [main] INFO  com.company.Main - Самое короткое число: 5его длина: %d
+
+2018-07-16 15:53:02 [main] INFO  com.company.Main - Введите числа через пробел
+2018-07-16 15:53:13 [main] INFO  com.company.Main - Самое короткое число: 25 его длина: %d
+

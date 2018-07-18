@@ -1,0 +1,12 @@
+2018-07-18 21:13:35 [main] INFO  com.company.Reader - Введите числа через пробел
+2018-07-18 21:14:47 [main] INFO  com.company.Reader - Введите ЧИСЛА через пробел
+2018-07-18 21:14:56 [main] INFO  com.company.Reader - Введите ЧИСЛА через пробел
+2018-07-18 21:15:07 [main] INFO  com.company.Main - Самое короткое число: 6
+2018-07-18 21:15:07 [main] INFO  com.company.Main - Самое длинное число: 54123
+2018-07-18 21:15:07 [main] INFO  com.company.Main - 41 length: 2
+2018-07-18 21:15:07 [main] INFO  com.company.Main - 589 length: 3
+2018-07-18 21:15:07 [main] INFO  com.company.Main - 6 length: 1
+2018-07-18 21:15:07 [main] INFO  com.company.Main - 54123 length: 5
+2018-07-18 21:15:07 [main] INFO  com.company.Main - 5 length: 1
+2018-07-18 23:56:40 [main] INFO  com.company.Reader - Введите ЧИСЛА через пробел
+2018-07-18 23:56:50 [main] INFO  com.company.Reader - Введите ЧИСЛА через пробел

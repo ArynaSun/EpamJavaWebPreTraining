@@ -1,0 +1,12 @@
+2018-07-16 17:53:39 [main] INFO  com.company.Main - Самое короткое число: 8
+2018-07-16 17:53:39 [main] INFO  com.company.Main - Самое длинное число: 111
+2018-07-16 17:55:52 [main] INFO  com.company.Main - Введите числа через пробел
+2018-07-16 17:56:04 [main] INFO  com.company.Main - Самое короткое число: 1
+2018-07-16 17:56:04 [main] INFO  com.company.Main - Самое длинное число: 999
+2018-07-16 17:56:04 [main] INFO  com.company.Main - 999 length: 3
+2018-07-16 17:56:04 [main] INFO  com.company.Main - 85 length: 2
+2018-07-16 17:56:04 [main] INFO  com.company.Main - 62 length: 2
+2018-07-16 17:56:04 [main] INFO  com.company.Main - 1 length: 1
+2018-07-17 00:31:58 [main] INFO  com.company.Reader - Введите числа через пробел
+2018-07-17 00:32:26 [main] INFO  com.company.Main - Самое короткое число: 9
+2018-07-17 00:32:26 [main] INFO  com.company.Main - Самое длинное число: l777
