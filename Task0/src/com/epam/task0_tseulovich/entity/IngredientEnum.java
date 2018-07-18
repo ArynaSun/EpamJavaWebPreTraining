@@ -1,7 +1,7 @@
 package com.epam.task0_tseulovich.entity;
 
 public enum IngredientEnum {
-    CHOCOLATE_FIGURES("Шоколаднные фигурки", 8),//лучше английский
+    CHOCOLATE_FIGURES("Шоколаднные фигурки", 8),
     PLATES_CHOCOLATE_WHITE("Слитки белого шоколада", 10),
     PLATES_CHOCOLATE_MILK("Слитки молочного шоколада", 10),
     PLATES_CHOCOLATE_BLACK("Слитки черного шоколада", 10),

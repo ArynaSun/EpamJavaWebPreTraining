@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.sql.Time;
 
-public class Order { // 1.1.1
+public class Order {
     private int number;
     private int countOfCustomKits;
     private String clientName;
@@ -17,7 +17,7 @@ public class Order { // 1.1.1
     Logger logger = LogManager.getLogger();
 
     public Order() {
-        customKit = new CustomKit();//1.1.2
+        customKit = new CustomKit();
         clientName = example;
         number = a;
     }
@@ -57,7 +57,7 @@ public class Order { // 1.1.1
         this.clientName = clientName;
     }
 
-    public void outAttributes() {//1.1.5
+    public void outAttributes() {
         logger.log(Level.INFO,("[" + number + ": " + clientName + ": " + customKit.getKitName() + ": " + countOfCustomKits + "]"));
     }
 

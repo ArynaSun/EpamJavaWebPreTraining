@@ -25,7 +25,7 @@ public class CustomKit {
         return hasCard;
     }
 
-    public void setKitName(String kitName) {//1.1.3
+    public void setKitName(String kitName) {
         if (CustomKitNameValidator.validate(kitName)) {
             this.kitName = kitName;
         } else {
@@ -43,7 +43,7 @@ public class CustomKit {
         this.hasCard = hasCard;
      }
      
-    public void addIngredient(IngredientEnum ingredient) {//1.2.1???????
+    public void addIngredient(IngredientEnum ingredient) {
         IngredientEnum[] newArray = new IngredientEnum[ingredients.length + 1];
         for (int i = 0; i < ingredients.length; i++) {
             newArray[i] = ingredients[i];

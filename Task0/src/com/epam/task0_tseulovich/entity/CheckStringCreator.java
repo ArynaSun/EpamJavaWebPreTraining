@@ -2,7 +2,7 @@ package com.epam.task0_tseulovich.entity;
 
 public class CheckStringCreator {
 
-    public String toString(Order a) {//в отдельный класс засунуть
+    public  static String toString(Order a) {
         String answer =
                 "*****************\n"+
                         "Заказ: "+a.getNumber() +"\n"+
