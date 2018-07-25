@@ -1,4 +1,4 @@
-package com.company;
+package com.epam.task1.reader;
 
 
 
@@ -8,14 +8,14 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Scanner;
 
-public class Reader {
+public class InfoReader {
 
     static Logger logger = LogManager.getLogger();
-    public static String readLine(){
+    public String readLine(){
         logger.log(Level.INFO, "Введите ЧИСЛА через пробел");
         Scanner scan = new Scanner(System.in);
-        String userLine = scan.nextLine();
-        return userLine;
+        String input = scan.nextLine();
+        return input;
     }
 
 }

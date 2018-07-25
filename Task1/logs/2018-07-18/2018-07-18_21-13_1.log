@@ -1,12 +1,12 @@
-2018-07-18 21:08:02 [main] INFO  com.company.Main - 256 length: 3
-2018-07-18 21:08:03 [main] INFO  com.company.Main - 98 length: 2
-2018-07-18 21:08:03 [main] INFO  com.company.Main - 5 length: 1
-2018-07-18 21:08:03 [main] INFO  com.company.Main - 44444 length: 5
-2018-07-18 21:09:43 [main] INFO  com.company.Reader - Введите числа через пробел
-2018-07-18 21:10:27 [main] INFO  com.company.Reader - Введите числа через пробел
-2018-07-18 21:12:51 [main] INFO  com.company.Reader - Введите числа через пробел
-2018-07-18 21:12:57 [main] INFO  com.company.Main - Самое короткое число: dsfsdf
-2018-07-18 21:12:57 [main] INFO  com.company.Main - Самое длинное число: dsfsdf
-2018-07-18 21:12:57 [main] INFO  com.company.Main - dsfsdf length: 6
-2018-07-18 21:13:24 [main] INFO  com.company.Reader - Введите числа через пробел
-2018-07-18 21:13:28 [main] INFO  com.company.Reader - Введите числа через пробел
+2018-07-18 21:08:02 [main] INFO  Main - 256 length: 3
+2018-07-18 21:08:03 [main] INFO  Main - 98 length: 2
+2018-07-18 21:08:03 [main] INFO  Main - 5 length: 1
+2018-07-18 21:08:03 [main] INFO  Main - 44444 length: 5
+2018-07-18 21:09:43 [main] INFO  Reader - Введите числа через пробел
+2018-07-18 21:10:27 [main] INFO  Reader - Введите числа через пробел
+2018-07-18 21:12:51 [main] INFO  Reader - Введите числа через пробел
+2018-07-18 21:12:57 [main] INFO  Main - Самое короткое число: dsfsdf
+2018-07-18 21:12:57 [main] INFO  Main - Самое длинное число: dsfsdf
+2018-07-18 21:12:57 [main] INFO  Main - dsfsdf length: 6
+2018-07-18 21:13:24 [main] INFO  Reader - Введите числа через пробел
+2018-07-18 21:13:28 [main] INFO  Reader - Введите числа через пробел

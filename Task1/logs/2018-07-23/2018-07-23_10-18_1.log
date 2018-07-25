@@ -1,0 +1,14 @@
+2018-07-18 23:57:01 [main] INFO  Main - Самое короткое число: 1
+2018-07-18 23:57:01 [main] INFO  Main - Самое длинное число: 154
+2018-07-18 23:57:01 [main] INFO  Main - 154 length: 3
+2018-07-18 23:57:01 [main] INFO  Main - 21 length: 2
+2018-07-18 23:57:01 [main] INFO  Main - 85 length: 2
+2018-07-18 23:57:01 [main] INFO  Main - 1 length: 1
+2018-07-19 11:42:02 [main] INFO  com.epam.task1.reader.InfoReader - Введите ЧИСЛА через пробел
+2018-07-20 15:59:49 [main] INFO  com.epam.task1.reader.InfoReader - Введите ЧИСЛА через пробел
+2018-07-20 15:59:58 [main] INFO  com.epam.task1.main.RunMain - Самое короткое число: 45
+2018-07-20 15:59:58 [main] INFO  com.epam.task1.main.RunMain - Самое длинное число: 68451
+2018-07-20 15:59:58 [main] INFO  com.epam.task1.main.RunMain - 45 length: 2
+2018-07-20 15:59:58 [main] INFO  com.epam.task1.main.RunMain - 845 length: 3
+2018-07-20 15:59:58 [main] INFO  com.epam.task1.main.RunMain - 68451 length: 5
+2018-07-20 15:59:58 [main] INFO  com.epam.task1.main.RunMain - 54 length: 2

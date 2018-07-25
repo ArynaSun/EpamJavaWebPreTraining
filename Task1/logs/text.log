@@ -1,6 +1,6 @@
-2018-07-18 23:57:01 [main] INFO  com.company.Main - Самое короткое число: 1
-2018-07-18 23:57:01 [main] INFO  com.company.Main - Самое длинное число: 154
-2018-07-18 23:57:01 [main] INFO  com.company.Main - 154 length: 3
-2018-07-18 23:57:01 [main] INFO  com.company.Main - 21 length: 2
-2018-07-18 23:57:01 [main] INFO  com.company.Main - 85 length: 2
-2018-07-18 23:57:01 [main] INFO  com.company.Main - 1 length: 1
+2018-07-23 10:18:02 [main] INFO  com.epam.task1.reader.InfoReader - Введите ЧИСЛА через пробел
+2018-07-23 10:18:15 [main] INFO  com.epam.task1.reader.InfoReader - Введите ЧИСЛА через пробел
+2018-07-23 10:18:59 [main] INFO  com.epam.task1.reader.InfoReader - Введите ЧИСЛА через пробел
+2018-07-23 10:19:09 [main] INFO  com.epam.task1.task.TaskMaker - Самое короткое число: 5
+2018-07-23 10:19:09 [main] INFO  com.epam.task1.task.TaskMaker - Самое длинное число: 5
+2018-07-23 10:19:09 [main] INFO  com.epam.task1.task.TaskMaker - 5 length: 1
