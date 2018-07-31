@@ -1,0 +1,23 @@
+2018-07-30 22:34:16 [main] INFO  com.epam.task0.Application - *****************
+Заказ: 10000
+Клиент: Михаил
+Название: Подарочный
+-----------------
+Украшения и ленточки 5.0€
+Обычная коробка 3.0€
+Жевательные конфеты 5.0€
+Леденцы 3.0€
+-----------------
+Всего: 16.0€
+Количество: 2
+-----------------
+Общая сумма: 32.0€
+*****************
+
+2018-07-30 22:34:51 [main] INFO  com.epam.task0.Application - CHOCOLATE_FIGURES
+2018-07-30 22:34:51 [main] INFO  com.epam.task0.Application - PLATES_CHOCOLATE_WHITE
+2018-07-30 22:34:51 [main] INFO  com.epam.task0.Application - PLATES_CHOCOLATE_MILK
+2018-07-30 22:34:51 [main] INFO  com.epam.task0.Application - PLATES_CHOCOLATE_BLACK
+2018-07-30 22:34:51 [main] INFO  com.epam.task0.Application - LOLLIPOPS
+2018-07-30 22:34:51 [main] INFO  com.epam.task0.Application - CHOCOLATE_CEREALS
+2018-07-30 22:34:51 [main] INFO  com.epam.task0.Application - CANDIES_BOX

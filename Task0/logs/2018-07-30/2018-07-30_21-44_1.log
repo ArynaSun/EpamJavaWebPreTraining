@@ -1,0 +1,22 @@
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - CHUPA_CHUPS
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - LIQUEUR_CANDIES
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - JELLY_BEAN
+2018-07-30 21:43:46 [main] INFO  com.epam.task0.Application - Нужна ли вам открытка? (Y/N)
+2018-07-30 21:43:48 [main] INFO  com.epam.task0.Application - Введите название набора
+2018-07-30 21:43:51 [main] INFO  com.epam.task0.Application - Введите количество набора
+2018-07-30 21:43:53 [main] INFO  com.epam.task0.Application - Желаете изменить количество? (Y/N)
+2018-07-30 21:44:10 [main] INFO  com.epam.task0.Application - *****************
+Заказ: 10000
+Клиент: dtydfh
+Название: fghfghdfj
+-----------------
+Украшения и ленточки 5.0€
+Обычная коробка 3.0€
+Жевательные конфеты 5.0€
+-----------------
+Всего: 13.0€
+Количество: 5
+-----------------
+Общая сумма: 65.0€
+*****************
+

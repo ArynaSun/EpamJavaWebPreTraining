@@ -1,0 +1,26 @@
+2018-07-25 15:25:10 [main] INFO  com.epam.task0.Application - CHOCOLATE_CEREALS
+2018-07-25 15:25:10 [main] INFO  com.epam.task0.Application - CANDIES_BOX
+2018-07-25 15:25:10 [main] INFO  com.epam.task0.Application - CHUPA_CHUPS
+2018-07-25 15:25:10 [main] INFO  com.epam.task0.Application - LIQUEUR_CANDIES
+2018-07-25 15:25:10 [main] INFO  com.epam.task0.Application - JELLY_BEAN
+2018-07-25 15:25:44 [main] INFO  com.epam.task0.Application - Нужна ли вам открытка? (Y/N)
+2018-07-25 15:25:48 [main] INFO  com.epam.task0.Application - Введите название набора
+2018-07-25 15:26:03 [main] INFO  com.epam.task0.Application - Введите количество набора
+2018-07-25 15:26:05 [main] INFO  com.epam.task0.Application - Желаете изменить количество? (Y/N)
+2018-07-25 15:26:05 [main] INFO  com.epam.task0.Application - *****************
+Заказ: 10000
+Клиент: Aryna
+Название: BraslavLakes
+-----------------
+Украшения и ленточки 5.0€
+Обычная коробка 3.0€
+Леденцы 3.0€
+Коробка конфет 8.0€
+Конфеты с ликером 9.0€
+-----------------
+Всего: 28.0€
+Количество: 2
+-----------------
+Общая сумма: 56.0€
+*****************
+

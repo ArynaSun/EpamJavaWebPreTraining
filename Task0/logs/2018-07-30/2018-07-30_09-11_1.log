@@ -1,0 +1,24 @@
+2018-07-30 09:10:39 [main] INFO  com.epam.task0.Application - CANDIES_BOX
+2018-07-30 09:10:39 [main] INFO  com.epam.task0.Application - CHUPA_CHUPS
+2018-07-30 09:10:39 [main] INFO  com.epam.task0.Application - LIQUEUR_CANDIES
+2018-07-30 09:10:39 [main] INFO  com.epam.task0.Application - JELLY_BEAN
+2018-07-30 09:10:56 [main] INFO  com.epam.task0.Application - Нужна ли вам открытка? (Y/N)
+2018-07-30 09:10:59 [main] INFO  com.epam.task0.Application - Введите название набора
+2018-07-30 09:11:04 [main] INFO  com.epam.task0.Application - Введите количество набора
+2018-07-30 09:11:07 [main] INFO  com.epam.task0.Application - Желаете изменить количество? (Y/N)
+2018-07-30 09:11:07 [main] INFO  com.epam.task0.Application - *****************
+Заказ: 10000
+Клиент: Иванов
+Название: фыввапролл
+-----------------
+Украшения и ленточки 5.0€
+Обычная коробка 3.0€
+Коробка конфет 8.0€
+Конфеты с ликером 9.0€
+-----------------
+Всего: 25.0€
+Количество: 2
+-----------------
+Общая сумма: 50.0€
+*****************
+

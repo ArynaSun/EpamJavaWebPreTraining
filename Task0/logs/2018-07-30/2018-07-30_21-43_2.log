@@ -1,0 +1,12 @@
+2018-07-30 21:43:19 [main] INFO  com.epam.task0.Application - Здравствуйте! Как Вас зовут?
+2018-07-30 21:43:29 [main] INFO  com.epam.task0.Application - Здравствуйте! Как Вас зовут?
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - Введите ингредиенты. Ваш ответ должен быть в формате:
+"название_продукта,название_продукта" без кавычек
+например: "JELLY_BEAN,LOLLIPOPS"
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - CHOCOLATE_FIGURES
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - PLATES_CHOCOLATE_WHITE
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - PLATES_CHOCOLATE_MILK
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - PLATES_CHOCOLATE_BLACK
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - LOLLIPOPS
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - CHOCOLATE_CEREALS
+2018-07-30 21:43:37 [main] INFO  com.epam.task0.Application - CANDIES_BOX
