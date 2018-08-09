@@ -12,7 +12,7 @@ public class StringParser {
         //logger.log(Level.INFO, "Введите количество набора");
         int countOfCustomKits = in.nextInt();
         order.setCountOfCustomKits(countOfCustomKits);
-        Logger logger5 = LogManager.getLogger();
+        Logger logger = LogManager.getLogger();
         //logger.log(Level.INFO, "Желаете изменить количество? (Y/N)");// TODO сделать что-то с этой хренью
         String str = in.nextLine().toUpperCase();
         return str.equals("Y");
