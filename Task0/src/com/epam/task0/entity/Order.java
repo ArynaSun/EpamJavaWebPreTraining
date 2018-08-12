@@ -6,20 +6,23 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.sql.Time;
+import java.time.LocalTime;
 
 public class Order {
+    private static Logger logger = LogManager.getLogger();
+
     private int number;
     private int countOfCustomKits;
     private String clientName;
     private CustomKit customKit;
-    private Time localTime;
-    private static  Logger logger = LogManager.getLogger();
+    private LocalTime localTime;
 
 
     public Order() {
         customKit = new CustomKit();
         clientName = OrderCounter.DEFAULT_NAME;
         number = OrderCounter.DEFAULT_NUMBER;
+        localTime = LocalTime.now();
     }
 
     public int getCountOfCustomKits() {
@@ -44,6 +47,10 @@ public class Order {
         return customKit;
     }
 
+    public LocalTime getLocalTime() {
+        return localTime;
+    }
+
     public void setNumber(int number) {
         this.number = number;
     }
@@ -56,14 +63,19 @@ public class Order {
         this.clientName = clientName;
     }
 
-    public void printOrderToConsole() {// и что-то еще
-        logger.log(Level.INFO,("[" + number + ": " + clientName + ": " + customKit.getKitName() + ": " + countOfCustomKits + "]"));
+    public void setLocalTime(LocalTime localTime) {
+        this.localTime = localTime;
+    }
+
+
+    public void printOrderToConsole() {
+        logger.log(Level.INFO, ("[" + number + ": " + clientName + ": " + customKit.getKitName() + ": " + countOfCustomKits + "]"));
     }
 
     public double countCostOfKit() {
         double answer = 0;
         for (Ingredient ingredient : customKit.getIngredients()) {
-            answer+= ingredient.getPrice();
+            answer += ingredient.getPrice();
         }
         return answer;
     }
