@@ -4,12 +4,12 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class CustomKitValidator {//написать параметризированный тест
+public class CustomKitValidator {
 
     private static final int MIN_NAME_SIZE = 7;
     private static final int MAX_NAME_SIZE = 20;
 
-    public static boolean validateName(String customKitName) {// param test
+    public static boolean validateName(String customKitName) {
         return customKitName.length() >= MIN_NAME_SIZE && customKitName.length() <= MAX_NAME_SIZE;
 
     }

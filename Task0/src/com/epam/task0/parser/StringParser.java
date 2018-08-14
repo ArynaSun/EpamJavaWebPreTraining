@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.Scanner;
 
 public class StringParser {
-    Logger logger = LogManager.getLogger();
+   static Logger logger = LogManager.getLogger();
 //    public boolean parseNumberOfKitsLine(Scanner in, Order order) {
 //        //logger.log(Level.INFO, "Введите количество набора");
 //        int countOfCustomKits = in.nextInt();
@@ -19,14 +19,14 @@ public class StringParser {
 //        return "Y".equals(str);
 //    }
     public void parseHasCardLine(String hasCardLine, Order order) {
-        if (hasCardLine != null && hasCardLine.toUpperCase().equals("Y")) {
+        if ("Y".equalsIgnoreCase(hasCardLine)) {
             order.getCustomKit().setHasCard(true);
         }
     }
     public void parseIngredientsLine(String ingredientsLine, Order order) {
-        String[] ar1 = ingredientsLine.split(",");
-        for (int i = 0; i < ar1.length; i++) {
-            order.getCustomKit().addIngredient(Ingredient.valueOf(ar1[i].toUpperCase()));
+        String[] strings = ingredientsLine.split(",");
+        for (int i = 0; i < strings.length; i++) {
+            order.getCustomKit().addIngredient(Ingredient.valueOf(strings[i].toUpperCase()));
         }
     }
 

@@ -4,8 +4,7 @@ import com.epam.task0.validator.CustomKitValidator;
 
 public class CustomKit {
     private String kitName;
-    private Ingredient[] ingredients = new Ingredient[0];//почему 0? нужно мах, потому что наш массив всегда такого же размера,
-    // как и количество ингредиентов в нем
+    private Ingredient[] ingredients = new Ingredient[0];
     private boolean hasCard;
     private static final String DEFAULT_KIT_NAME = "Client ";
 

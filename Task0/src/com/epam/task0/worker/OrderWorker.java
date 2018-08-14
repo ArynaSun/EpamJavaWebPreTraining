@@ -16,13 +16,14 @@ import java.io.IOException;
 import java.util.List;
 
 public class OrderWorker {
+    private static final String RESOURSES_OUTPUT_TXT = "resourses/Output.txt";
     static Logger logger = LogManager.getLogger();
 
     public void fillOrder(List<String> data) {
         BufferedWriter bufferedWriter = null;
         StringParser stringParser = new StringParser();
         ConsolePrinter consolePrinter = new ConsolePrinter();
-        File file = new File("resourses/Output.txt");
+        File file = new File(RESOURSES_OUTPUT_TXT);
         try {
             if (!file.exists())
                 file.createNewFile();//??
@@ -41,7 +42,7 @@ public class OrderWorker {
                 try {
                     stringParser.parseIngredientsLine(data.get(i++), order);
                 } catch (IllegalArgumentException e) {
-                    bufferedWriter.append("Проверьте названия ингредиентов");
+                    bufferedWriter.append("Проверьте названия ингредиентов");//English
                     i += 2;
                     continue;
                 }
@@ -72,7 +73,6 @@ public class OrderWorker {
                 //logger.log(Level.INFO, check);
             }
         } catch (IOException e) {
-            e.printStackTrace();
             logger.info(e.toString());
         } finally {
             try {
@@ -80,7 +80,6 @@ public class OrderWorker {
                     bufferedWriter.close();
                 }
             } catch (IOException e) {
-                e.printStackTrace();
                 logger.info(e.toString());
             }
         }
